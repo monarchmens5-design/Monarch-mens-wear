@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Monarch Men's Wear | Dress Better. Wear Royal.</title>
+<meta name="description" content="Monarch Men's Wear — premium men's fashion in Pakistan.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#"><img src="logo.png" alt="Monarch Men's Wear logo"></a>
+  <nav><a href="#shop">Shop</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+  <button class="cart-btn" onclick="toggleCart()">Cart <span id="cartCount">0</span></button>
+</header>
+<section class="hero"><div><img class="hero-logo" src="logo.png" alt="Monarch Men's Wear logo"><p class="eyebrow">MONARCH MEN'S WEAR</p><h1>Dress Better.<br><em>Wear Royal.</em><br>Live Confident.</h1><p class="hero-copy">Premium men's fashion made for confidence, comfort and a royal look.</p><a class="btn" href="#shop">Shop Collection</a></div></section>
+<section id="shop" class="section"><div class="section-head"><div><p class="eyebrow">OUR COLLECTION</p><h2>Men's Essentials</h2></div><p>Nationwide delivery available across Pakistan.</p></div><div class="products" id="products"></div></section>
+<section id="about" class="about"><div><p class="eyebrow">ABOUT MONARCH</p><h2>Style that speaks before you do.</h2></div><p>Monarch Men's Wear brings modern men's clothing with a premium, confident aesthetic. Browse the collection, choose your style and place your order directly.</p></section>
+<section class="banner"><h2>UP TO 30% OFF</h2><p>Selected men's wear styles. Limited-time offer.</p><a class="btn light" href="#shop">Shop Now</a></section>
+<section id="contact" class="section contact"><p class="eyebrow">CONTACT</p><h2>Ready to order?</h2><p>For orders and product details, contact us on WhatsApp or social media.</p><a class="btn" id="whatsappLink" target="_blank">Order on WhatsApp</a><p class="social">Instagram / Facebook: <strong>monarch_mens5</strong></p></section>
+<aside id="cart" class="cart"><button class="close" onclick="toggleCart()">×</button><h2>Your Cart</h2><div id="cartItems"></div><div class="total">Total: Rs. <span id="total">0</span></div><button class="btn checkout" onclick="checkout()">Checkout on WhatsApp</button></aside>
+<div id="overlay" onclick="toggleCart()"></div><footer>© 2026 Monarch Men's Wear. All rights reserved.</footer><script src="script.js"></script>
+</body></html>
